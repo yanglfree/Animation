@@ -22,3 +22,5 @@
     layer?.add(pulse, forKey: nil)
  ```
 
+## Gradient Animations渐变动画
+
