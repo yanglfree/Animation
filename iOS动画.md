@@ -60,3 +60,14 @@
     
     gradientLayer.add(gradiantAnimation, forKey: nil)
 ```
+
+
+
+可以通过将gradientLayer的frame变大来使渐变更加柔和
+![aj6Rcq.png](https://s1.ax1x.com/2020/08/12/aj6Rcq.png)
+```
+gradientLayer.frame = CGRect(x: -bounds.size.width, y: bounds.origin.y, width: 3 * bounds.size.width, height: bounds.size.height)
+
+```
+
+[![ajfsEV.md.gif](https://s1.ax1x.com/2020/08/12/ajfsEV.md.gif)](https://imgchr.com/i/ajfsEV)
